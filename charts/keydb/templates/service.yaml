@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "moons-keydb.fullname" . }}
+  name: {{ include "keydb.fullname" . }}
   labels:
-    {{- include "moons-keydb.labels" . | nindent 4 }}
+    {{- include "keydb.labels" . | nindent 4 }}
 spec:
   type: {{ .Values.service.type }}
   ports:
@@ -12,4 +12,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    {{- include "moons-keydb.selectorLabels" . | nindent 4 }}
+    {{- include "keydb.selectorLabels" . | nindent 4 }}
