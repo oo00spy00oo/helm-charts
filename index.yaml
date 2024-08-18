@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  moons-keydb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-08-18T15:59:11.175706255Z"
+    description: A Helm chart for Kubernetes
+    digest: dc0e7d9b5430daca94116c581ea87d9ce87a60058dce3315cfcb2b7be38e3522
+    name: moons-keydb
+    type: application
+    urls:
+    - https://github.com/oo00spy00oo/helm-charts/releases/download/moons-keydb-0.1.0/moons-keydb-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-08-18T15:59:11.175715021Z"
